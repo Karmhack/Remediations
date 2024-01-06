@@ -34,22 +34,22 @@
         ◦ Mettre en place une gestion des dépendances pour suivre et mettre à jour régulièrement les composants.
         ◦ Utiliser des scanners d'analyse des dépendances pour identifier les vulnérabilités.
 ## 10. Insufficient Logging & Monitoring :
-        • Mettre en place un logging robuste pour suivre toutes les actions importantes et les erreurs.
-        • Utiliser un système de gestion des événements de sécurité (SIEM) pour surveiller et alerter sur les activités suspectes.
+        ◦ Mettre en place un logging robuste pour suivre toutes les actions importantes et les erreurs.
+        ◦ Utiliser un système de gestion des événements de sécurité (SIEM) pour surveiller et alerter sur les activités suspectes.
 ## 11. Cross-Site Request Forgery (CSRF) :
-        • Utiliser des tokens CSRF uniques pour chaque requête.
-        • Mettre en place des headers HTTP stricts, comme SameSite, pour limiter les risques.
-## 12. Session Hijacking :
-        • Utiliser HTTPS pour sécuriser les cookies de session.
-        • Utiliser des cookies sécurisés et HttpOnly.
-        • Mettre en place des mécanismes de renouvellement de session.
-## 13. Phishing Attacks :
-        • Éduquer les utilisateurs sur les signes d'attaques de phishing.
-        • Mettre en place des solutions de filtrage de courrier électronique pour détecter et bloquer les e-mails de phishing.
+        ◦ Utiliser des tokens CSRF uniques pour chaque requête.
+        ◦ Mettre en place des headers HTTP stricts, comme SameSite, pour limiter les risques.
+## 12. Session Hijacking :
+        ◦ Utiliser HTTPS pour sécuriser les cookies de session.
+        ◦ Utiliser des cookies sécurisés et HttpOnly.
+        ◦ Mettre en place des mécanismes de renouvellement de session.
+## 13. Phishing Attacks :
+        ◦ Éduquer les utilisateurs sur les signes d'attaques de phishing.
+        ◦ Mettre en place des solutions de filtrage de courrier électronique pour détecter et bloquer les e-mails de phishing.
 ## 14. Drive-By Downloads :
-        • Mettre à jour régulièrement les logiciels et les systèmes.
-        • Utiliser des solutions de prévention des malwares et des attaques zero-day.
-## 15. Malicious File Uploads :
-        • Valider et désinfecter tous les fichiers téléchargés.
-        • Restreindre les types de fichiers autorisés et leur taille.
-    • Stocker les fichiers téléchargés dans des emplacements sécurisés.
+        ◦ Mettre à jour régulièrement les logiciels et les systèmes.
+        ◦ Utiliser des solutions de prévention des malwares et des attaques zero-day.
+## 15. Malicious File Uploads :
+        ◦ Valider et désinfecter tous les fichiers téléchargés.
+        ◦ Restreindre les types de fichiers autorisés et leur taille.
+        ◦ Stocker les fichiers téléchargés dans des emplacements sécurisés.

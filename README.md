@@ -7,7 +7,6 @@
 ## 2. Cross-Site Scripting (XSS) :
         ◦ Échapper correctement les données avant de les insérer dans le DOM.
         ◦ Utiliser des headers CSP (Content Security Policy) pour limiter les sources de scripts exécutables.
-        ◦ Utiliser des frameworks ou des bibliothèques qui protègent contre XSS, comme React ou Angular.
 ## 3. Broken Authentication :
         ◦ Utiliser des mécanismes d'authentification robustes, comme la multi-authentification à facteurs.
         ◦ Éviter les tokens de session ou les cookies prévisibles.
@@ -46,10 +45,7 @@
 ## 13. Phishing Attacks :
         ◦ Éduquer les utilisateurs sur les signes d'attaques de phishing.
         ◦ Mettre en place des solutions de filtrage de courrier électronique pour détecter et bloquer les e-mails de phishing.
-## 14. Drive-By Downloads :
-        ◦ Mettre à jour régulièrement les logiciels et les systèmes.
-        ◦ Utiliser des solutions de prévention des malwares et des attaques zero-day.
-## 15. Malicious File Uploads :
-        ◦ Valider et désinfecter tous les fichiers téléchargés.
+## 14. Malicious File Uploads :
+        ◦ Valider et "sanitized" tous les fichiers téléchargés.
         ◦ Restreindre les types de fichiers autorisés et leur taille.
         ◦ Stocker les fichiers téléchargés dans des emplacements sécurisés.

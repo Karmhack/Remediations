@@ -18,7 +18,7 @@
         ◦ Assurer une gestion appropriée des clés et des secrets.
 ## 5. XML External Entities (XXE) :
         ◦ Désactiver le support DTD dans les parsers XML.
-        ◦ Utiliser des bibliothèques de traitement XML sécurisées qui désactivent XXE par défaut.
+        ◦ Limiter les autorisations du processus de votre serveur Web.
 ## 6. Broken Access Control :
         ◦ Implémenter un contrôle d'accès basé sur le rôle (RBAC) et les permissions.
         ◦ Éviter les IDs prévisibles ou séquentiels pour les ressources.

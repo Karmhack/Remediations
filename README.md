@@ -10,9 +10,9 @@
 ## 3. Broken Authentication :
         ◦ Utiliser des mécanismes d'authentification robustes, comme le MFA.
         ◦ Éviter les tokens de session ou les cookies prévisibles.
-        ◦ Implémenter des mécanismes de renouvellement de session et des contrôles de session invalides.
+        ◦ Implémenter des mécanismes de renouvellement de session et des contrôles de session.
 ## 4. Sensitive Data Exposure :
-        ◦ Chiffrer les données sensibles en transit et au repos.
+        ◦ Chiffrer les données sensibles.
         ◦ Utiliser des protocoles de sécurité robustes, comme TLS.
         ◦ Assurer une gestion appropriée des clés et des secrets.
 ## 5. XML External Entities (XXE) :

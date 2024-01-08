@@ -8,7 +8,7 @@
         ◦ Échapper correctement les données avant de les insérer dans le DOM.
         ◦ Utiliser des headers CSP (Content Security Policy) pour limiter les sources de scripts exécutables.
 ## 3. Broken Authentication :
-        ◦ Utiliser des mécanismes d'authentification robustes, comme la multi-authentification à facteurs.
+        ◦ Utiliser des mécanismes d'authentification robustes, comme le MFA.
         ◦ Éviter les tokens de session ou les cookies prévisibles.
         ◦ Implémenter des mécanismes de renouvellement de session et des contrôles de session invalides.
 ## 4. Sensitive Data Exposure :

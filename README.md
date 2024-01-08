@@ -1,7 +1,7 @@
 # Remediations
 
 ## 1. Injection (SQL, Commande, etc.) :
-        ◦ Utiliser des requêtes préparées ou des procédures stockées.
+        ◦ Utiliser des requêtes préparées.
         ◦ Valider et désinfecter toutes les entrées utilisateur.
         ◦ Éviter l'exécution de commandes dynamiques basées sur des entrées utilisateur.
 ## 2. Cross-Site Scripting (XSS) :
